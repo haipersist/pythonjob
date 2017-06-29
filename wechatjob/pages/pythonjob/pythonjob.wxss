@@ -1,0 +1,5 @@
+/* pythonjob.wxss */
+
+.other-button-hover {
+  background-color: blue;
+}
