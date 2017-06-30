@@ -1,0 +1,8 @@
+<!--film.wxml-->
+<view class="movielist">
+<block wx:for="{{playing.movies}}" wx:for-item="movie" wx:key="{{index}}">
+  <text>{{movie.title}}</text>
+</block>
+
+<text>{{playing.subtitle}}</text>
+</view>

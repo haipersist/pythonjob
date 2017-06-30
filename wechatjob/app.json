@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/pythonjob/pythonjob"
+    "pages/pythonjob/pythonjob",
+    "pages/film/film"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -19,12 +20,16 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "日志"
+        "pagePath": "pages/film/film",
+        "text": "电影"
       },
       {
         "pagePath": "pages/pythonjob/pythonjob",
         "text": "工作信息"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
       }
     ]
   },

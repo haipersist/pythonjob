@@ -24,6 +24,7 @@ App({
   },
 
   globalData: {
-    userInfo: null
+    userInfo: null,
+    basedouban: 'https://api.douban.com'
   }
 })
