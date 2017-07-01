@@ -1,0 +1,11 @@
+<!--filmdetail.wxml-->
+<view class="movie-detail">
+  <image class="movieimg" src="{{movie.img}}"></image>
+   <text>{{movie.title}}</text>
+   <text>{{movie.tag}}</text>
+   <text>{{movie.country}}</text>
+   <text>{{movie.rate}}</text>
+   <text>{{movie.director}}</text>
+   <text>{{movie.actor}}</text>
+   <text>{{movie.summary}}</text>
+</view>

@@ -1,0 +1,16 @@
+<template name="filmlist">
+  <view class="movies-container">
+    <view class="movie-header">
+      <text>{{subtitle}}</text>
+    </view>
+    <view class="movielist">
+      <block wx:for="{{movies}}" wx:for-item="movie" wx:key="{{index}}">
+      <view class="movie-container">
+        <image class="movieimg" src="{{movie.movieimgUrl}}"></image>
+        <text class="movie-title">{{movie.title}}</text>
+      </view>
+      </block>
+    </view>
+  </view>
+
+</template>

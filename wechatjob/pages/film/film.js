@@ -16,7 +16,11 @@ Page({
    */
   onLoad: function (event) {
     var playingurl = app.globalData.basedouban + '/v2/movie/in_theaters'+'?start=0&count=3'
+    var comingurl = app.globalData.basedouban + '/v2/movie/coming_soon' + '?start=0&count=3'
+    var topurl = app.globalData.basedouban + '/v2/movie/top250' + '?start=0&count=3'
     this.getFilmList(playingurl,'playing','正在热映')
+    this.getFilmList(comingurl,'coming', '即将上映')
+    this.getFilmList(topurl, 'top', '排行榜')
   },
   getFilmList: function (url,filmcategory,subtitle) {
     var that = this;
@@ -29,6 +33,9 @@ Page({
          for (var index in subjects) {
             var subject = subjects[index]
             var title = subject.title
+            if (title.length>6) {
+              title = title.substring(0,6) + '...'
+            }
             var temp = {}
             temp = {
               title:title,
@@ -38,7 +45,6 @@ Page({
             }
             movies.push(temp)
         }
-      movies.push({title:'test'})
       var readydata = {}
       readydata[filmcategory] = {
         subtitle: subtitle,

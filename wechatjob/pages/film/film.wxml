@@ -1,8 +1,10 @@
-<!--film.wxml-->
-<view class="movielist">
-<block wx:for="{{playing.movies}}" wx:for-item="movie" wx:key="{{index}}">
-  <text>{{movie.title}}</text>
-</block>
+<import src="filmlist/filmlist.wxml" />
 
-<text>{{playing.subtitle}}</text>
+<view class="container">
+
+  <template is="filmlist" data="{{...playing}}" />
+  <template is="filmlist" data="{{...coming}}" />
+  <template is="filmlist" data="{{...top}}" />
+
+
 </view>

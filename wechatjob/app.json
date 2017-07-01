@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/pythonjob/pythonjob",
-    "pages/film/film"
+    "pages/film/film",
+    "pages/film/filmdetail/filmdetail"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -28,7 +29,7 @@
         "text": "工作信息"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/film/filmdetail/filmdetail",
         "text": "日志"
       }
     ]
