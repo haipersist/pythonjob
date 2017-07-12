@@ -18,7 +18,14 @@
 
 .movie-header {
   margin-bottom: 3%;
-  font-size: 12px;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.more-movie {
+  margin-left:70% 
 }
 
 .movie-title {

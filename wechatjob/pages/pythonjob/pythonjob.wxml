@@ -1,7 +1,26 @@
-<!--pythonjob.wxml-->
-<button disabled="{{disabled}}" hover-class="other-button-hover" >默认</button>
-<button bindtap="setdisabled">点击设置默认</button>
-
-<text>{{text}}</text>
-
-<button bindtap="addline">添加</button>
+<view class="movies-container">
+    <view class="job-header">
+      <text class="jobbutton" >最新职位</text>
+       <text class="jobmore" >更多</text>
+    </view>
+    <view class="joblist">
+      <block wx:for="{{jobs}}" wx:for-item="job" wx:key="{{index}}">
+      <view class="job-container">
+        <view class="job-header">
+          <text class="job-title" data-jobid="{{job.id}}" catchtap="getJobDetail">{{job.title}}</text>
+          <text class="job-salary">{{job.salary}}</text>
+        </view>
+        <view class="job-intro">
+           <text class="job-welfare">{{job.welfare}}</text>
+          <text class="job-pubtime">{{job.pub_time}}</text>
+        </view>
+        <view class="job-company">
+           <text class="company" data-companyid="{{job.companyid}}" catchtap="getComDetail">{{job.company}}</text>
+        </view>
+         
+       
+  
+      </view>
+      </block>
+    </view>
+  </view>

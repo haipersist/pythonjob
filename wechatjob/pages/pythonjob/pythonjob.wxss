@@ -1,5 +1,68 @@
 /* pythonjob.wxss */
 
-.other-button-hover {
-  background-color: blue;
+.movies-container {
+  margin-top: 60rpx;
+  background-color: rgba(134, 237, 94, 0.27);
+  border: darkblue;
+  display: flex;
+  flex-direction: column;
+}
+.job-container {
+  margin-bottom: 15rpx;
+  padding-top:25rpx; 
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25rpx;
+  padding-left: 5px;
+  padding-right: 5px
+}
+.jobmore {
+  float: right
+}
+.job-intro {
+  margin-top: 5rpx;
+  color: rgba(0, 0, 0, 0.32)
+}
+.job-header {
+  font-size: 12px;
+  background-color: rgba(134, 237, 94, 0.36);
+  margin-bottom: 10px
+  
+  
+}
+.jobbutton {
+  font-size: 12px;
+  margin-bottom: 3px;
+  float: left
+}
+.job-title {
+  float: left;
+  font-weight: bolder;
+  font-size: 16px
+}
+.job-welfare {
+  font-size: 12px
+}
+
+.job-salary {
+  font-size: 12px;
+  color:rgba(237, 18, 15, 0.90);
+  float: right
+}
+
+.job-pubtime {
+  float: right;
+  font-size: 12px
+}
+
+.job-company {
+  margin-top:100rpx;
+  font-size: 15px;
+  color: rgba(11, 43, 237, 0.73)
+  
+}
+.job-header {
+  text-align: center;
+  background-color: #fff
 }

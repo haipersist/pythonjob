@@ -4,7 +4,10 @@
     "pages/logs/logs",
     "pages/pythonjob/pythonjob",
     "pages/film/film",
-    "pages/film/filmdetail/filmdetail"
+    "pages/film/filmdetail/filmdetail",
+    "pages/film/morefilm/morefilm",
+    "pages/pythonjob/jobdetail/jobdetail",
+    "pages/pythonjob/comdetail/comdetail"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -29,7 +32,7 @@
         "text": "工作信息"
       },
       {
-        "pagePath": "pages/film/filmdetail/filmdetail",
+        "pagePath": "pages/logs/logs",
         "text": "日志"
       }
     ]

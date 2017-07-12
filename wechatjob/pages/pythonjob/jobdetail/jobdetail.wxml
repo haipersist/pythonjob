@@ -1,0 +1,36 @@
+<view class="jobdetail-container">
+  <view class="jobdetail-header">
+  <view class="job-firstline">
+   <text class="job-title">{{job.title}}</text>
+   <text class="job-pubtime">{{job.pub_time}}</text>
+   </view>
+   <text class="job-company">{{job.company_name}}</text>
+  </view>
+
+  <view class="job-welfare">
+   <text class="sectiontitle">公司福利</text>
+    <view class="job-line">
+    
+    </view>
+    <text class="job-salary">{{job.salary}}</text>
+    <text class='welfaredetail'>{{job.welfare}}</text>
+  </view>
+
+  <view class="job-requirement">
+    <text class="sectiontitle">职位描述</text>
+    <view class="job-line">
+    
+     </view>
+
+   <text class='welfaredetail'>{{job.requirement}}</text>
+  </view>
+
+  <view class="job-address">
+  <text class="sectiontitle">公司地址</text>
+    <view class="job-line">
+    
+    </view>
+     <text class="'welfaredetail">{{job.company_addr}}</text>
+  </view>
+
+</view>

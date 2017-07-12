@@ -15,8 +15,8 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    //var movieId = options.id
-    var movieurl = app.globalData.basedouban + "/v2/movie/subject/" + "25824686"
+    var movieId = options.id
+    var movieurl = app.globalData.basedouban + "/v2/movie/subject/" + movieId
     this.getMovieDetail(movieurl)
   },
 

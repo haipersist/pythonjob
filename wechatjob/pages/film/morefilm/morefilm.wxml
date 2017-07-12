@@ -1,0 +1,10 @@
+<!--morefilm.wxml-->
+<view class="movielist-container">
+<block wx:for="{{movies}}" wx:for-item="movie" wx:key="{{index}}">
+      <view class="single-movie-container" data-movieid="{{movie.movieid}}" catchtap="getMovieDetail">
+        <image class="movieimg" src="{{movie.movieimgUrl}}"></image>
+        <text class="movie-title">{{movie.title}}</text>
+      </view>
+      </block>
+
+</view>

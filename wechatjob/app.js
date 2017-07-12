@@ -25,6 +25,7 @@ App({
 
   globalData: {
     userInfo: null,
-    basedouban: 'https://api.douban.com'
+    basedouban: 'https://api.douban.com',
+    basejob: 'https://hbnnlove.sinaapp.com'
   }
 })

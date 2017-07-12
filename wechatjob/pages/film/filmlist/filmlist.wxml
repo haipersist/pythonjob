@@ -2,10 +2,13 @@
   <view class="movies-container">
     <view class="movie-header">
       <text>{{subtitle}}</text>
+      <view class="more-movie" data-category="{{subtitle}}" catchtap="getMoreMovie">
+        <text class="more-text">更多</text>
+      </view>
     </view>
     <view class="movielist">
       <block wx:for="{{movies}}" wx:for-item="movie" wx:key="{{index}}">
-      <view class="movie-container">
+      <view class="movie-container" data-movieid="{{movie.movieid}}" catchtap="getMovieDetail">
         <image class="movieimg" src="{{movie.movieimgUrl}}"></image>
         <text class="movie-title">{{movie.title}}</text>
       </view>

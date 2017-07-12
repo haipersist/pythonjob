@@ -61,6 +61,18 @@ Page({
     })
 
   },
+  getMovieDetail: function(event) {
+    var movieid = event.currentTarget.dataset.movieid
+    wx.navigateTo({
+      url: 'filmdetail/filmdetail?id='+movieid,
+    })
+  },
+  getMoreMovie: function(event){
+    var category = event.currentTarget.dataset.category
+    wx.navigateTo({
+      url: 'morefilm/morefilm?category=' + category,
+    })
+  },
   /**
    * 生命周期函数--监听页面显示
    */
