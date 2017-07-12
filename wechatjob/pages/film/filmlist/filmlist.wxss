@@ -10,6 +10,10 @@
   flex-direction: row;
   
 }
+.more-text {
+  float: right;
+  margin-right: -8%
+}
 
 .movieimg {
   width: 200rpx;
@@ -19,14 +23,10 @@
 .movie-header {
   margin-bottom: 3%;
   font-size: 13px;
-  display: flex;
-  flex-direction: row;
 
 }
 
-.more-movie {
-  margin-left:70% 
-}
+
 
 .movie-title {
   font-size: 12px;

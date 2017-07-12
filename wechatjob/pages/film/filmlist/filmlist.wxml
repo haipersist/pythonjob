@@ -2,9 +2,7 @@
   <view class="movies-container">
     <view class="movie-header">
       <text>{{subtitle}}</text>
-      <view class="more-movie" data-category="{{subtitle}}" catchtap="getMoreMovie">
-        <text class="more-text">更多</text>
-      </view>
+      <text class="more-text" data-category="{{subtitle}}" catchtap="getMoreMovie">更多</text>
     </view>
     <view class="movielist">
       <block wx:for="{{movies}}" wx:for-item="movie" wx:key="{{index}}">
