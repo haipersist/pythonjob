@@ -1,0 +1,5 @@
+/* filmdetail.wxss */
+.movie-detail {
+  display: flex;
+  flex-direction: column
+}

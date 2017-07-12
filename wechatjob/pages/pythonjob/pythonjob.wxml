@@ -1,0 +1,7 @@
+<!--pythonjob.wxml-->
+<button disabled="{{disabled}}" hover-class="other-button-hover" >默认</button>
+<button bindtap="setdisabled">点击设置默认</button>
+
+<text>{{text}}</text>
+
+<button bindtap="addline">添加</button>

@@ -1,0 +1,13 @@
+@import '../filmlist/filmlist.wxss';
+
+.single-movie-container{
+  float: left;
+  margin-bottom: 40rpx;
+  display: flex;
+  flex-direction: column;
+  padding-right: 6%
+}
+
+.movielist-container {
+  margin: 40rpx 5rpx 40rpx 6rpx 
+}

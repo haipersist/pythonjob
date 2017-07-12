@@ -1,0 +1,10 @@
+<import src="filmlist/filmlist.wxml" />
+
+<view class="container">
+
+  <template is="filmlist" data="{{...playing}}" />
+  <template is="filmlist" data="{{...coming}}" />
+  <template is="filmlist" data="{{...top}}" />
+
+
+</view>

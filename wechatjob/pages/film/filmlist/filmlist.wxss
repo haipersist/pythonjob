@@ -1,0 +1,45 @@
+.movies-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  
+}
+
+.movielist {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.movieimg {
+  width: 200rpx;
+  height: 270rpx;
+}
+
+.movie-header {
+  margin-bottom: 3%;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.more-movie {
+  margin-left:70% 
+}
+
+.movie-title {
+  font-size: 12px;
+  margin-top: 8px;
+  color:#1662C2
+
+}
+
+
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  /*padding-block-end: 5px;*/
+  margin-right: 6%;
+}
+
