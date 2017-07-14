@@ -30,10 +30,6 @@
       {
         "pagePath": "pages/pythonjob/pythonjob",
         "text": "工作信息"
-      },
-      {
-        "pagePath": "pages/logs/logs",
-        "text": "日志"
       }
     ]
   },
